@@ -8,9 +8,10 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function testSum(a, b) { //eslint-disable-line
-   let c = a + b; 
-    console.log(`The sum of ${a} and ${b} is ${c}`);
+function sum(a, b) { //eslint-disable-line
+   let s = a + b; 
+   return[s,`The sum of ${a} and ${b} is ${s}.`]
+//console.log(`The sum of ${a} and ${b} is ${s}`);
 
 }
 
