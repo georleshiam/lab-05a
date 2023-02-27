@@ -90,19 +90,18 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
 
-  let sum3 = sum (testArray[0] , testArray[1] )[0] ; 
-  let sum4 = sum (sum3 , testArray[2] )[0] ; 
+  let testArray = [2 , 3 , 4] ; 
 
+  var product5 = multiply(testArray[0] , testArray[1])[0]    ; 
+  var product6 = multiply(product5 , testArray[2])[0]  ; 
 
-  var str4 =  testArray + " was passed in as an array of numbers, and "  + sum4 + " is their sum."  ; 
+  var str5 = "The numbers " + testArray + " have a product of " +   product6  + "."    ; 
 
-  var arr4=[] ;
-  arr4[0] = sum4   ; 
-  arr4[1] =  str4   ; 
+  var arr5b=[] ; 
+  arr5b [0] =  product6    ; 
+  arr5b [1] = str5 ; 
 
-
-
-  return arr4   ; 
+  return arr5b ; ; 
 
 }
 
