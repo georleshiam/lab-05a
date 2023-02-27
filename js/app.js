@@ -125,6 +125,19 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
 
+  var sum5 = sum (testArray[0] , testArray[1] )[0] ; 
+  var sum6 = sum (sum5 , testArray[2] )[0] ; 
+
+
+  var str4 =  testArray + " was passed in as an array of numbers, and "  + sum6 + " is their sum."  ; 
+
+  var arr4=[] ;
+  arr4[0] = sum5   ; 
+  arr4[1] =  str4   ; 
+
+
+
+  return arr4   ; 
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
