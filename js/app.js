@@ -101,7 +101,7 @@ function sumArray(sumArr) { //eslint-disable-line
   arr5b [0] =  product6    ; 
   arr5b [1] = str5 ; 
 
-  return arr5b ; ; 
+  return arr5b ; 
 
 }
 
