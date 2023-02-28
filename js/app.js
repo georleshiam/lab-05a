@@ -16,7 +16,7 @@ function sum(a, b) { //eslint-disable-line
 }
 
 // Here is the test for sum(); uncomment it to run it
-testSum(4, 7);
+//testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -71,7 +71,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+//testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -92,13 +92,13 @@ function sumArray(sumArr) { //eslint-disable-line
 
   let testArray = [2 , 3 , 4] ; 
 
-  var product5 = multiply(testArray[0] , testArray[1])[0]    ; 
-  var product6 = multiply(product5 , testArray[2])[0]  ; 
+  var sum5 = sum(testArray[0] , testArray[1])[0]    ; 
+  var sum6 = sum(product5 , testArray[2])[0]  ; 
 
-  var str5 = "The numbers " + testArray + " have a product of " +   product6  + "."    ; 
+  var str5 = "The numbers " + testArray + " sum to " +   sum6  + "."    ; 
 
   var arr5b=[] ; 
-  arr5b [0] =  product6    ; 
+  arr5b [0] =  sum6    ; 
   arr5b [1] = str5 ; 
 
   return arr5b ; 
